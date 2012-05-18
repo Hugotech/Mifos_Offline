@@ -1,0 +1,802 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="date" min="-2" max="-2" attributes="0"/>
+                              <Component id="memberName" min="-2" max="-2" attributes="0"/>
+                              <Component id="loanIntrest" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="total" min="-2" max="-2" attributes="0"/>
+                              <Component id="groupName" alignment="1" min="-2" max="-2" attributes="1"/>
+                              <Component id="externalId" alignment="1" min="-2" max="-2" attributes="1"/>
+                              <Component id="loanPrinciple" min="-2" max="-2" attributes="0"/>
+                              <Component id="fees" min="-2" max="-2" attributes="0"/>
+                              <Component id="selectBranch" min="-2" max="-2" attributes="0"/>
+                              <Component id="savingAmount" min="-2" max="-2" attributes="0"/>
+                              <Component id="loanAmount" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="sum_of_the_three" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="save" min="-2" pref="94" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cancel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="summary" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="483" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="totalSavings" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="totalValue" pref="64" max="32767" attributes="1"/>
+                                                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="loanInterestValue" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="loanPrincipleValue" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="memberNameValue" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="groupNameValue" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="externalIdText" alignment="0" min="-2" pref="105" max="-2" attributes="1"/>
+                                              <Component id="feesText" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="loanAmountText" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="savingAmountText" alignment="0" pref="133" max="32767" attributes="1"/>
+                                              <Component id="sum_of_three" alignment="0" pref="133" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="mainTotal" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="currentDemandPrincipal" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="accountStatus" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="DateofDebt" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="NoOfInst" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pastDuePrincipal" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="totalInterest" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="totalLoan" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="OSPrincipal" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="NoOfInstValue" min="-2" max="-2" attributes="0"/>
+                                      <Component id="totalLoanValue" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mainTotalValue" min="-2" max="-2" attributes="0"/>
+                                      <Component id="DateofDebtValue" min="-2" max="-2" attributes="0"/>
+                                      <Component id="statusValue" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="pastDuePrincipalValue" min="-2" max="-2" attributes="0"/>
+                                              <Component id="totalSavingsValue" min="-2" max="-2" attributes="0"/>
+                                              <Component id="totalInterestValue" min="-2" max="-2" attributes="0"/>
+                                              <Component id="OSPrincipalValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="currentDemandPrincipalValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="OSInterest" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="currentDemandInterest" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pastDueInterest" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="print" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="pastDueInterestValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="currentDemandInterestValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="OSInterestValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="dateValue" alignment="0" min="-2" pref="268" max="-2" attributes="0"/>
+                              <Component id="comboSelect" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="selectBranch" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="comboSelect" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="dateValue" max="32767" attributes="1"/>
+                      <Component id="date" alignment="1" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="externalId" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="externalIdText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="DateofDebt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="DateofDebtValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="groupName" min="-2" pref="14" max="-2" attributes="0"/>
+                      <Component id="groupNameValue" min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="accountStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="statusValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="memberName" min="-2" max="-2" attributes="0"/>
+                              <Component id="memberNameValue" alignment="0" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NoOfInst" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="NoOfInstValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="OSPrincipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="OSPrincipalValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="OSInterest" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="OSInterestValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="loanPrincipleValue" pref="14" max="32767" attributes="1"/>
+                              <Component id="loanPrinciple" alignment="1" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="loanIntrest" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="loanInterestValue" alignment="3" min="-2" pref="13" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="totalValue" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="total" alignment="3" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="savingAmount" min="-2" max="-2" attributes="0"/>
+                              <Component id="savingAmountText" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="loanAmount" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="loanAmountText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="feesText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fees" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="totalLoan" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="totalLoanValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="totalInterest" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="totalInterestValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="totalSavings" alignment="3" min="-2" max="-2" attributes="1"/>
+                              <Component id="totalSavingsValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="pastDuePrincipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pastDuePrincipalValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pastDueInterest" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pastDueInterestValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="currentDemandPrincipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="currentDemandPrincipalValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="currentDemandInterest" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="currentDemandInterestValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mainTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainTotalValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="sum_of_three" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sum_of_the_three" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="save" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="summary" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="print" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="date">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="date.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="date.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="date" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="externalId">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="externalId.text"/>
+            <Property name="name" type="java.lang.String" value="externalId" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="externalIdText">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="externalIdText.text"/>
+            <Property name="name" type="java.lang.String" value="externalIdText" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="externalIdTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="groupName">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="groupName.text"/>
+            <Property name="name" type="java.lang.String" value="groupName" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="memberName">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="memberName.text"/>
+            <Property name="name" type="java.lang.String" value="memberName" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="loanPrinciple">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="loanPrinciple.text"/>
+            <Property name="name" type="java.lang.String" value="loanPrinciple" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="loanIntrest">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="loanIntrest.text"/>
+            <Property name="name" type="java.lang.String" value="loanIntrest" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="loanAmount">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="loanAmount.text"/>
+            <Property name="name" type="java.lang.String" value="loanAmount" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="loanAmountText">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="loanAmountText.text"/>
+            <Property name="name" type="java.lang.String" value="loanAmountText" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loanAmountTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="savingAmount">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="savingAmount.text"/>
+            <Property name="name" type="java.lang.String" value="savingAmount" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="savingAmountText">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="savingAmountText.text"/>
+            <Property name="name" type="java.lang.String" value="savingAmountText" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="savingAmountTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fees">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fees.text"/>
+            <Property name="name" type="java.lang.String" value="fees" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="feesText">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="feesText.text"/>
+            <Property name="name" type="java.lang.String" value="feesText" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="feesTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="save">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="save.text"/>
+            <Property name="name" type="java.lang.String" value="save" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="groupNameValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="groupNameValue.text"/>
+            <Property name="name" type="java.lang.String" value="groupNameValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="memberNameValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="memberNameValue.text"/>
+            <Property name="name" type="java.lang.String" value="memberNameValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="loanPrincipleValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="loanPrincipleValue.text"/>
+            <Property name="name" type="java.lang.String" value="loanPrincipleValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="loanInterestValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="loanInterestValue.text"/>
+            <Property name="name" type="java.lang.String" value="loanInterestValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="dateValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="dateValue.text"/>
+            <Property name="name" type="java.lang.String" value="dateValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalValue.text"/>
+            <Property name="name" type="java.lang.String" value="totalValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="total">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="total.text"/>
+            <Property name="name" type="java.lang.String" value="total" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="comboSelect">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="16">
+                <StringItem index="0" value="A Village"/>
+                <StringItem index="1" value="Aler"/>
+                <StringItem index="2" value="Bahadurpet"/>
+                <StringItem index="3" value="Bharath_Nagar"/>
+                <StringItem index="4" value="Chintal_Basti"/>
+                <StringItem index="5" value="Katamayya_Nagar"/>
+                <StringItem index="6" value="Kolanupaka-1"/>
+                <StringItem index="7" value="Kolanupaka-2"/>
+                <StringItem index="8" value="Kolanupaka-3"/>
+                <StringItem index="9" value="KranthiNagar"/>
+                <StringItem index="10" value="Manthapuri"/>
+                <StringItem index="11" value="Raghavapoor"/>
+                <StringItem index="12" value="SilkNagar"/>
+                <StringItem index="13" value="SubhashNagar"/>
+                <StringItem index="14" value="Kolluru"/>
+                <StringItem index="15" value="Saigudem"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="comboSelect" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboSelectActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="selectBranch">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="selectBranch.text"/>
+            <Property name="name" type="java.lang.String" value="selectBranch" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="cancel">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="cancel.text"/>
+            <Property name="name" type="java.lang.String" value="cancel" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="accountStatus">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="accountStatus.text"/>
+            <Property name="name" type="java.lang.String" value="accountStatus" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalLoan">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalLoan.text"/>
+            <Property name="name" type="java.lang.String" value="totalLoan" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalSavings">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalSavings.text"/>
+            <Property name="name" type="java.lang.String" value="totalSavings" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pastDuePrincipal">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pastDuePrincipal.text"/>
+            <Property name="name" type="java.lang.String" value="pastDuePrincipal" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currentDemandPrincipal">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="currentDemandPrincipal.text"/>
+            <Property name="name" type="java.lang.String" value="currentDemandPrincipal" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalInterest">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalInterest.text"/>
+            <Property name="name" type="java.lang.String" value="totalInterest" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mainTotal">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mainTotal.text"/>
+            <Property name="name" type="java.lang.String" value="mainTotal" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="summary">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="summary.text"/>
+            <Property name="name" type="java.lang.String" value="summary" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="summaryActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="DateofDebt">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="DateofDebt.text"/>
+            <Property name="name" type="java.lang.String" value="DateofDebt" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pastDueInterest">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pastDueInterest.text"/>
+            <Property name="name" type="java.lang.String" value="pastDueInterest" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currentDemandInterest">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="currentDemandInterest.text"/>
+            <Property name="name" type="java.lang.String" value="currentDemandInterest" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pastDuePrincipalValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pastDuePrincipalValue.text"/>
+            <Property name="name" type="java.lang.String" value="pastDuePrincipalValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="statusValue.text"/>
+            <Property name="name" type="java.lang.String" value="statusValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalLoanValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalLoanValue.text"/>
+            <Property name="name" type="java.lang.String" value="totalLoanValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalInterestValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalInterestValue.text"/>
+            <Property name="name" type="java.lang.String" value="totalInterestValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalSavingsValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="totalSavingsValue.text"/>
+            <Property name="name" type="java.lang.String" value="totalSavingsValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currentDemandPrincipalValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="currentDemandPrincipalValue.text"/>
+            <Property name="name" type="java.lang.String" value="currentDemandPrincipalValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mainTotalValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mainTotalValue.text"/>
+            <Property name="name" type="java.lang.String" value="mainTotalValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currentDemandInterestValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="currentDemandInterestValue.text"/>
+            <Property name="name" type="java.lang.String" value="currentDemandInterestValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pastDueInterestValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pastDueInterestValue.text"/>
+            <Property name="name" type="java.lang.String" value="pastDueInterestValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="DateofDebtValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="DateofDebtValue.text"/>
+            <Property name="name" type="java.lang.String" value="DateofDebtValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="NoOfInst">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="NoOfInst.text"/>
+            <Property name="name" type="java.lang.String" value="NoOfInst" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="NoOfInstValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="NoOfInstValue.text"/>
+            <Property name="name" type="java.lang.String" value="NoOfInstValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="OSPrincipal">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="OSPrincipal.text"/>
+            <Property name="name" type="java.lang.String" value="OSPrincipal" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="OSPrincipalValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="OSPrincipalValue.text"/>
+            <Property name="name" type="java.lang.String" value="OSPrincipalValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="OSInterest">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="OSInterest.text"/>
+            <Property name="name" type="java.lang.String" value="OSInterest" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="OSInterestValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="OSInterestValue.text"/>
+            <Property name="name" type="java.lang.String" value="OSInterestValue" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="print">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="print.text"/>
+            <Property name="name" type="java.lang.String" value="print" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sum_of_the_three">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="sum_of_the_three.text"/>
+            <Property name="name" type="java.lang.String" value="sum_of_the_three" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="sum_of_three">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="sum_of_three.text"/>
+            <Property name="name" type="java.lang.String" value="sum_of_three" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="statusPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="statusPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="statusPanelSeparator" alignment="0" pref="1121" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusMessageLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="951" max="32767" attributes="0"/>
+                  <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusAnimationLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="statusPanelSeparator" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="statusMessageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="statusAnimationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="progressBar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanelSeparator" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusMessageLabel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusMessageLabel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="name" type="java.lang.String" value="statusAnimationLabel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="progressBar">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jMenuBar1" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+            <Property name="name" type="java.lang.String" value="jMenu1" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="CallProcItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="CallProcItem.text"/>
+                <Property name="name" type="java.lang.String" value="CallProcItem" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CallProcItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ExportItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="ExportItem.text"/>
+                <Property name="name" type="java.lang.String" value="ExportItem" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExportItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ImportItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="ImportItem.text"/>
+                <Property name="name" type="java.lang.String" value="ImportItem" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ImportItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ExitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="ExitMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="ExitMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+            <Property name="name" type="java.lang.String" value="jMenu2" noResource="true"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="jMenuBar1"/>
+    </Property>
+    <Property name="statusBar" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="statusPanel"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,54,0,0,4,97"/>
+  </AuxValues>
+</Form>
